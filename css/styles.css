@@ -1,0 +1,60 @@
+/* page styling */
+body {
+  font-size: 20px;
+}
+canvas {
+  position: absolute;
+  z-index: -1;
+}
+/* general section styling */
+.section-title {
+  font-weight: 300;
+}
+.dropdown-arrow {
+  background: none;
+  border: none;
+  display: block;
+  position: relative;
+  top: 15%;
+  left: 95%
+}
+
+/* subsection styling */ 
+.home {
+  padding-top: 60px;
+}
+.home a {
+  text-decoration: none;
+}
+.home__image {
+  width: 100%;
+  padding-top: 80px;
+}
+
+.about {
+  background-color: #e1b17d;
+}
+
+.skills {
+  background-color: #cf9066;
+}
+.skills .card {
+  min-height: 550px;
+}
+
+.interests {
+  background-color: #e1b17d;
+}
+.interests__image {
+  width: 70%;
+}
+.interests__description {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* effects */
+.rotated {
+  transform: rotate(180deg);
+}
